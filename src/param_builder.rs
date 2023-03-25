@@ -1,4 +1,4 @@
-use tokio_postgres::types::ToSql;
+use postgres_types::ToSql;
 
 use crate::{as_param::AsParam, param::Param};
 

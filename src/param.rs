@@ -1,3 +1,3 @@
-use tokio_postgres::types::ToSql;
+use postgres_types::ToSql;
 
 pub type Param = Box<dyn ToSql + Sync + Send>;
