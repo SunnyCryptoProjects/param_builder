@@ -5,4 +5,5 @@ pub mod param_builder;
 
 pub use as_param::AsParam;
 pub use as_params::AsParams;
+pub use param::Param;
 pub use param_builder::ParamBuilder;
