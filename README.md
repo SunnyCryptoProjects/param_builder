@@ -1,5 +1,3 @@
 Param builder
 ---
-This is a crate to build param lists. The idea is that you can implement 
-AsParams for structs that represent parts of a param list for postgres sql 
-queries. 
+This is a crate for building the param list for postgresql. 
