@@ -30,10 +30,10 @@ impl ParamBuilder {
 #[macro_export]
 macro_rules! params {
     () => {{
-        ::param_builder::param_builder::ParamBuilder::default()
+        ::param_builder::ParamBuilder::default()
     }};
     ($($vs:expr),*) => {{
-        let mut param_builder = ::param_builder::param_builder::ParamBuilder::default();
+        let mut param_builder = ::param_builder::ParamBuilder::default();
         $(param_builder.extend($vs);)*
         param_builder
     }};
